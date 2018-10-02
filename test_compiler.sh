@@ -24,7 +24,7 @@ success_total=0
 failure_total=0
 
 #num_stages=9
-num_stages=1
+num_stages=3
 
 for i in `seq 1 $num_stages`; do
     success=0
@@ -61,6 +61,7 @@ for i in `seq 1 $num_stages`; do
             # make sure exit code is correct
             if [ "$expected_exit_code" -ne "$actual_exit_code" ] || [ "$expected_out" != "$actual_out" ]
             then
+                echo "expected $expected_exit_code but got $actual_exit_code"
                 test_failure
             else
                 test_success
@@ -73,7 +74,8 @@ for i in `seq 1 $num_stages`; do
         base="${prog%.*}" #name of executable (filename w/out extension)
         test_name="${base##*invalid/}"
 
-        $cmp $prog >/dev/null 2>&1
+        #$cmp $prog >/dev/null 2>&1
+        $cmp ${prog/\.c/.mcc} #>/dev/null
         failed=$? #failed, as we expect, if exit code != 0
 
         printf '%s' "$test_name"
