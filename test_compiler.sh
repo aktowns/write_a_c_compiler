@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 padding_dots=$(printf '%0.1s' "."{1..60})
 padlength=50
@@ -23,7 +23,8 @@ cmp=$1
 success_total=0
 failure_total=0
 
-num_stages=9
+#num_stages=9
+num_stages=1
 
 for i in `seq 1 $num_stages`; do
     success=0
@@ -37,8 +38,10 @@ for i in `seq 1 $num_stages`; do
         expected_exit_code=$?
         rm a.out
 
-        $cmp $prog >/dev/null
+        #echo "$cmp ${prog/\.c/.mcc}" 
+        $cmp ${prog/\.c/.mcc} #>/dev/null
         base="${prog%.*}" #name of executable (filename w/out extension)
+
         actual_out=`./$base`
         actual_exit_code=$?
         test_name="${base##*valid/}"
