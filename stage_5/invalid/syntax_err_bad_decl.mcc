@@ -1,0 +1,4 @@
+fn main(): int {
+    ints a = 1;
+    return a;
+}

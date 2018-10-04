@@ -75,7 +75,7 @@ for i in `seq 1 $num_stages`; do
         test_name="${base##*invalid/}"
 
         #$cmp $prog >/dev/null 2>&1
-        $cmp ${prog/\.c/.mcc} #>/dev/null
+        $cmp ${prog/\.c/.mcc} >/dev/null
         failed=$? #failed, as we expect, if exit code != 0
 
         printf '%s' "$test_name"
