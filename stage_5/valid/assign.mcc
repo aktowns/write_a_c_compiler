@@ -1,5 +1,5 @@
 fn main(): int {
     int a;
-    int b = a = 0;
-    return b;
+    a = 2;
+    return a;
 }
