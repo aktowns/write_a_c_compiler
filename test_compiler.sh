@@ -24,7 +24,7 @@ success_total=0
 failure_total=0
 
 #num_stages=9
-num_stages=7
+num_stages=8
 
 for i in `seq 1 $num_stages`; do
     success=0
