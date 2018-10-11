@@ -1,0 +1,22 @@
+fn foo(a: int): int;
+fn bar(b: int): int;
+
+fn main(): int {
+    return foo(5);
+}
+
+fn foo(a: int): int {
+    if (a <= 0) {
+        return a;
+    }
+
+    return a + bar(a - 1);
+}
+
+fn bar(b: int): int {
+    if (b <= 0) {
+        return b;
+    }
+
+    return b + bar(b / 2);
+}

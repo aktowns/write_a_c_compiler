@@ -1,0 +1,7 @@
+fn twice(x: int){
+    return 2 * x;
+}
+
+fn main(): int {
+    return twice(3);
+}

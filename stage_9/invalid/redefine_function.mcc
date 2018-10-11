@@ -1,0 +1,11 @@
+fn foo(): int {
+    return 3;
+}
+
+fn main(): int {
+    return foo();
+}
+
+fn foo(): int {
+    return 4;
+}

@@ -1,0 +1,7 @@
+fn three(): int {
+    return 3;
+}
+
+fn main(): int {
+    return three();
+}
