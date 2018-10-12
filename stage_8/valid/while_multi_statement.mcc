@@ -1,6 +1,6 @@
 fn main(): int {
-    int a = 0;
-    int b = 1;
+    let a: int = 0;
+    let b: int = 1;
 
     while (a < 5) {
         a = a + 2;

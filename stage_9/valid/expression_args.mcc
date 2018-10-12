@@ -3,6 +3,6 @@ fn add(a: int, b: int): int {
 }
 
 fn main(): int {
-    int sum = add(1 + 2, 4);
+    let sum: int = add(1 + 2, 4);
     return sum + sum;
 }

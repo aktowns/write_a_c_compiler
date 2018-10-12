@@ -1,7 +1,7 @@
 fn main(): int {
-    int a = 1;
+    let a: int = 1;
     {
-        int a = 2;
+        let a: int = 2;
     }
     {
         return a;

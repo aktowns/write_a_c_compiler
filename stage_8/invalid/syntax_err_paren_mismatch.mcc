@@ -1,4 +1,4 @@
 fn main(): int {
-    for (int i = 2; ))
-        int a = 0;
+    for (let i: int = 2; ))
+        let a: int = 0;
 }

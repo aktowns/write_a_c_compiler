@@ -1,13 +1,13 @@
 fn main(): int {
-    int i = 0;
-    int j = 0;
+    let i: int = 0;
+    let j: int = 0;
 
-    for (int i = 100; i > 0; i = i - 1) {
-        int i = 0;
-        int j = j * 2 + i;
+    for (let i: int = 100; i > 0; i = i - 1) {
+        let i: int = 0;
+        let j: int = j * 2 + i;
     }
 
-    int k = 3;
+    let k: int = 3;
 
     return j + k;
 }

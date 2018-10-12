@@ -1,4 +1,4 @@
 fn main(): int {
-    int a;
+    let a: int;
     return 0;
 }

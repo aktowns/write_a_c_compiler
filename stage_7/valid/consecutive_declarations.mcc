@@ -1,11 +1,11 @@
 fn main(): int {
-    int a = 0;
+    let a: int = 0;
     {
-        int b = 1;
+        let b: int = 1;
         a = b;
     }
     {
-        int b = 2;
+        let b: int = 2;
         a = a + b;
     }
     return a;

@@ -1,7 +1,7 @@
 fn main(): int {
-    int a = 1;
-    int b = 2;
-    int flag = 0;
+    let a: int = 1;
+    let b: int = 2;
+    let flag: int = 0;
 
     return a > b ? 5 : flag ? 6 : 7;
 }

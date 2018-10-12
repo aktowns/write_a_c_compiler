@@ -1,9 +1,9 @@
-int foo(int a, int b);
+fn foo(a: int, b: int);
 
 int main() {
     return 5;
 }
 
-int foo(int a) {
+fn foo(a: int) {
     return 4;
 }

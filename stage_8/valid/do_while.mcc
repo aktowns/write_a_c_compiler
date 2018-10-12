@@ -1,5 +1,5 @@
 fn main(): int {
-    int a = 1;
+    let a: int = 1;
     do {
         a = a * 2;
     } while(a < 11);

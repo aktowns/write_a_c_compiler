@@ -1,6 +1,6 @@
 fn main(): int {
     {
-        int a;
-        int a;
+        let a;
+        let a;
     }
 }

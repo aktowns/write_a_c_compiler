@@ -1,6 +1,6 @@
 fn main(): int {
-    int a = 0;
-    int b = 1;
+    let a: int = 0;
+    let b: int = 1;
     if (a)
         b = 1;
     else if (b)

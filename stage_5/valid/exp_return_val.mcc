@@ -1,6 +1,6 @@
 fn main(): int {
-    int a;
-    int b;
+    let a: int;
+    let b: int;
     a = b = 4;
     return a - b;
 }
