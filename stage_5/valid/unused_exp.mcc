@@ -1,4 +1,6 @@
-fn main(): int {
+module Stage5.Valid.UnusedExp;
+
+fn main(): Int32 {
     2 + 2;
     return 0;
 }

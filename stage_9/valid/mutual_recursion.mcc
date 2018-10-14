@@ -1,11 +1,13 @@
-fn foo(a: int): int;
-fn bar(b: int): int;
+module Stage9.Valid.MutualRecursion;
 
-fn main(): int {
+fn foo(a: Int32): Int32;
+fn bar(b: Int32): Int32;
+
+fn main(): Int32 {
     return foo(5);
 }
 
-fn foo(a: int): int {
+fn foo(a: Int32): Int32 {
     if (a <= 0) {
         return a;
     }
@@ -13,7 +15,7 @@ fn foo(a: int): int {
     return a + bar(a - 1);
 }
 
-fn bar(b: int): int {
+fn bar(b: Int32): Int32 {
     if (b <= 0) {
         return b;
     }

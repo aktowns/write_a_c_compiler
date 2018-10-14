@@ -1,4 +1,6 @@
-fn main(): int {
+module Stage8.Valid.ReturnInWhile;
+
+fn main(): Int32 {
     while (1) {
         return 2;
     }

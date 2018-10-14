@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 1;
-    let b: int = 2;
+module Stage5.Valid.MultipleVars;
+
+fn main(): Int32 {
+    let a: Int32 = 1;
+    let b: Int32 = 2;
     return a + b;
 }

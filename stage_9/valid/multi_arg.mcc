@@ -1,7 +1,9 @@
-fn sub_3(x: int, y: int, z: int): int {
+module Stage9.Valid.MultiArg;
+
+fn sub_3(x: Int32, y: Int32, z: Int32): Int32 {
     return x - y - z;
 }
 
-fn main(): int {
+fn main(): Int32 {
     return sub_3(10, 4, 2);
 }

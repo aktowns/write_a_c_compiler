@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Valid.Div;
+
+fn main(): Int32 {
     return 4 / 2;
 }

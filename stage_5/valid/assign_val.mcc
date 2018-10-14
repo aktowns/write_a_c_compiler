@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int;
-    let b: int = a = 0;
+module Stage5.Valid.AssignVal;
+
+fn main(): Int32 {
+    let a: Int32;
+    let b: Int32 = a = 0;
     return b;
 }

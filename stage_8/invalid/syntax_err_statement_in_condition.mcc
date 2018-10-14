@@ -1,5 +1,7 @@
-fn main(): int {
-    while(int a) {
+module Stage8.Invalid.SyntaxErrStatementInCondition;
+
+fn main(): Int32 {
+    while(Int32 a) {
         2;
     }
 }

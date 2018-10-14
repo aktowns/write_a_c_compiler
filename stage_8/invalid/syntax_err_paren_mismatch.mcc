@@ -1,4 +1,6 @@
-fn main(): int {
-    for (let i: int = 2; ))
-        let a: int = 0;
+module Stage8.Invalid.SyntaxErrParenMismatch;
+
+fn main(): Int32 {
+    for (let i: Int32 = 2; ))
+        let a: Int32 = 0;
 }

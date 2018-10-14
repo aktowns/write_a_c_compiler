@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage2.Invalid.MissingConst;
+
+fn main(): Int32 {
     return !;
 }

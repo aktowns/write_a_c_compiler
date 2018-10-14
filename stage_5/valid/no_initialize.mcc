@@ -1,4 +1,6 @@
-fn main(): int {
-    let a: int;
+module Stage5.Valid.NoInitialize;
+
+fn main(): Int32 {
+    let a: Int32;
     return 0;
 }

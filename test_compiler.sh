@@ -37,7 +37,7 @@ for i in `seq 1 $num_stages`; do
         expected_exit_code=$?
         rm a.out
 
-        #echo "$cmp ${prog/\.c/.mcc}" 
+        #echo "$cmp ${prog/\.c/.mcc}"
         $cmp ${prog/\.c/.mcc} #>/dev/null
         base="${prog%.*}" #name of executable (filename w/out extension)
 
@@ -66,7 +66,7 @@ for i in `seq 1 $num_stages`; do
                 test_success
             fi
         fi
-        rm $base      
+        rm $base
     done
     echo "===================Invalid Programs================="
     for prog in `ls stage_$i/invalid/{,**/}*.c 2>/dev/null`; do

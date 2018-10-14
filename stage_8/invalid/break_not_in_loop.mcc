@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage8.Invalid.BreakNotInLoop;
+
+fn main(): Int32 {
     break;
 }

@@ -1,11 +1,13 @@
-fn main(): int {
-    let a: int = 0;
+module Stage7.Valid.ConsecutiveDeclarations;
+
+fn main(): Int32 {
+    let a: Int32 = 0;
     {
-        let b: int = 1;
+        let b: Int32 = 1;
         a = b;
     }
     {
-        let b: int = 2;
+        let b: Int32 = 2;
         a = a + b;
     }
     return a;

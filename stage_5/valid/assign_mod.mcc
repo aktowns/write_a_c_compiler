@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 8;
+module Stage5.Valid.AssignMod;
+
+fn main(): Int32 {
+    let a: Int32 = 8;
     a %= 3;
     return a;
 }

@@ -1,9 +1,11 @@
-fn sum(a: int, b: int): int {
+module Stage9.Valid.FunInExpr;
+
+fn sum(a: Int32, b: Int32): Int32 {
     return a + b;
 }
 
-fn main(): int {
-    int a = sum(1, 2) % 2;
-    int b = 2*sum(3, 4) + sum(1, 2);
+fn main(): Int32 {
+    let a: Int32 = sum(1, 2) % 2;
+    let b: Int32 = 2*sum(3, 4) + sum(1, 2);
     return b - a;
 }

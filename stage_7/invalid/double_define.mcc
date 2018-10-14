@@ -1,6 +1,8 @@
-fn main(): int {
+module Stage7.Invalid.DoubleDefine;
+
+fn main(): Int32 {
     {
-        let a;
-        let a;
+        let a: Int32;
+        let a: Int32;
     }
 }

@@ -1,8 +1,10 @@
+module Stage1.Valid.Newlines;
+
 
 fn
 main
 (   
-): int
+): Int32
 {
 return
 0

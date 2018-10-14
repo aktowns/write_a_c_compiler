@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 2;
+module Stage5.Valid.AssignMul;
+
+fn main(): Int32 {
+    let a: Int32 = 2;
     a *= 2;
     return a;
 }

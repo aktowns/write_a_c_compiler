@@ -1,5 +1,7 @@
-fn main(): int {
+module Stage5.Invalid.VarDeclaredLate;
+
+fn main(): Int32 {
     a = 1 + 2;
-    let a: int;
+    let a: Int32;
     return a;
 }

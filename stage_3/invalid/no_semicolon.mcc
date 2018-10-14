@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Invalid.NoSemicolon;
+
+fn main(): Int32 {
     return 2*2
 }

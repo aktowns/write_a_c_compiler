@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage4.Valid.EqFalse;
+
+fn main(): Int32 {
     return 1 == 2;
 }

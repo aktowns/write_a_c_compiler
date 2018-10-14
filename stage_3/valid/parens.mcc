@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Valid.Parens;
+
+fn main(): Int32 {
     return 2 * (3 + 4);
 }

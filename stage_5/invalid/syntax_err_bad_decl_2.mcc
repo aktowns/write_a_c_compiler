@@ -1,4 +1,6 @@
-fn main(): int {
-    let foo: int bar = 3;
+module Stage5.Invalid.SyntaxErrBadDecl2;
+
+fn main(): Int32 {
+    let foo: Int32 bar = 3;
     return bar;
 }

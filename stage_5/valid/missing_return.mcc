@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage5.Valid.MissingReturn;
+
+fn main(): Int32 {
 
 }

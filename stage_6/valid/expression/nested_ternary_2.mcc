@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 1 ? 2 ? 3 : 4 : 5;
-    let b: int = 0 ? 2 ? 3 : 4 : 5;
+module Stage6.Valid.Expression.NestedTernary2;
+
+fn main(): Int32 {
+    let a: Int32 = 1 ? 2 ? 3 : 4 : 5;
+    let b: Int32 = 0 ? 2 ? 3 : 4 : 5;
     return a * b;
 }

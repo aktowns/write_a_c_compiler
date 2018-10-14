@@ -1,7 +1,9 @@
-fn three(): int {
+module Stage9.Valid.Precedence;
+
+fn three(): Int32 {
     return 3;
 }
 
-fn main(): int {
+fn main(): Int32 {
     return !three();
 }

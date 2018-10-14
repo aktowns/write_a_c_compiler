@@ -1,8 +1,10 @@
-fn main(): int {
-    let i: int = 0;
+module Stage7.Valid.DeclareAfterBlock;
+
+fn main(): Int32 {
+    let i: Int32 = 0;
     {
-        let a: int = 2;
+        let a: Int32 = 2;
     }
-    let b: int = 3;
+    let b: Int32 = 3;
     return b;
 }

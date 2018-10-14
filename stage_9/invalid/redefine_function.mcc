@@ -1,11 +1,13 @@
-fn foo(): int {
+module Stage9.Invalid.RedefineFunction;
+
+fn foo(): Int32 {
     return 3;
 }
 
-fn main(): int {
+fn main(): Int32 {
     return foo();
 }
 
-fn foo(): int {
+fn foo(): Int32 {
     return 4;
 }

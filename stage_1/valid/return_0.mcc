@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage1.Valid.Return0;
+
+fn main(): Int32 {
     return 0;
 }

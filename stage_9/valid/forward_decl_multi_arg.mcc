@@ -1,9 +1,11 @@
-fn foo(a: int, b: int): int;
+module Stage9.Valid.ForwardDeclMultiArg;
 
-fn main(): int {
+fn foo(a: Int32, b: Int32): Int32;
+
+fn main(): Int32 {
     return foo(1, 2);
 }
 
-fn foo(x: int, y: int): int {
+fn foo(x: Int32, y: Int32): Int32 {
     return x - y;
 }

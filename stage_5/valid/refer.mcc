@@ -1,4 +1,6 @@
-fn main(): int {
-    let a: int = 2;
+module Stage5.Valid.Refer;
+
+fn main(): Int32 {
+    let a: Int32 = 2;
     return a;
 }

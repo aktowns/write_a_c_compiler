@@ -1,7 +1,9 @@
-fn main(): int {
+module Stage8.Invalid.OutOfScope;
+
+fn main(): Int32 {
 
     while (1) {
-        let a: int = 2;
+        let a: Int32 = 2;
     }
 
     return a;

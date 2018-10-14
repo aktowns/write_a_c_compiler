@@ -1,10 +1,12 @@
-fn main(): int {
-    let a: int = 0;
+module Stage7.Valid.NestedIf;
+
+fn main(): Int32 {
+    let a: Int32 = 0;
     if (a) {
-        let b: int = 2;
+        let b: Int32 = 2;
         return b;
     } else {
-        let c: int = 3;
+        let c: Int32 = 3;
         if (a < c) {
             return 4;
         } else {

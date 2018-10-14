@@ -1,8 +1,10 @@
-fn main(): int {
-    let a: int = 2;
-    let b: int = 3;
+module Stage7.Valid.NestedScope;
+
+fn main(): Int32 {
+    let a: Int32 = 2;
+    let b: Int32 = 3;
     {
-        let a: int = 1;
+        let a: Int32 = 1;
         b = b + a;
     }
     return b;

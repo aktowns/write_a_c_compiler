@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Invalid.MissingFirstOp;
+
+fn main(): Int32 {
     return /3;
 }

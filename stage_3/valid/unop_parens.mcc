@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Valid.UnopParens;
+
+fn main(): Int32 {
     return ~(1 + 1);
 }

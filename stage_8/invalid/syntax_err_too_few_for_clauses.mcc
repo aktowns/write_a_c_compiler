@@ -1,5 +1,7 @@
-fn main(): int {
-    for (let i: int = 2; i < 3)
+module Stage8.Invalid.SyntaxErrTooFewForClauses;
+
+fn main(): Int32 {
+    for (let i: Int32 = 2; i < 3)
         3;
     return 0;
 }

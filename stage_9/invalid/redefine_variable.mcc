@@ -1,7 +1,9 @@
-fn foo(x: int): int {
-    int x = 3;
+module Stage9.Invalid.RedefineVariable;
+
+fn foo(x: Int32): Int32 {
+    let x: Int32 = 3;
 }
 
-fn main() {
+fn main(): Int32 {
     foo(1);
 }

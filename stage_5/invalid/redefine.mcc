@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 1;
-    let a: int = 2;
+module Stage5.Invalid.Redefine;
+
+fn main(): Int32 {
+    let a: Int32 = 1;
+    let a: Int32 = 2;
     return a;
 }

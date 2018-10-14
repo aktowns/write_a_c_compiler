@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 4;
+module Stage5.Valid.AssignSub;
+
+fn main(): Int32 {
+    let a: Int32 = 4;
     a -= 2;
     return a;
 }

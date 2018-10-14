@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage4.Valid.BitwiseBitCheck2;
+
+fn main(): Int32 {
     return 94 & (1 << 7);
 }

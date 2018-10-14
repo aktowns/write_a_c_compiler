@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 2
+module Stage5.Invalid.SyntaxErrNoSemicolon;
+
+fn main(): Int32 {
+    let a: Int32 = 2
     a = a + 4;
     return a;
 }

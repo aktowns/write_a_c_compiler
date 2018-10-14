@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage4.Valid.BitwiseShiftRight;
+
+fn main(): Int32 {
     return 14 >> 1;
 }

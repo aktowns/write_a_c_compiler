@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 5;
+module Stage5.Valid.AssignRightShift;
+
+fn main(): Int32 {
+    let a: Int32 = 5;
     a >>= 2;
     return a;
 }

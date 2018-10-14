@@ -1,4 +1,6 @@
-fn main(): int {
+module Stage8.Invalid.SyntaxErrDoNoSemicolon;
+
+fn main(): Int32 {
     do
         3;
     while (4)

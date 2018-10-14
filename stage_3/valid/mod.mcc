@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Valid.Mod;
+
+fn main(): Int32 {
     return 5 % 3;
 }

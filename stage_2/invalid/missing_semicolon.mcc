@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage2.Invalid.MissingSemicolon;
+
+fn main(): Int32 {
     return !5
 }

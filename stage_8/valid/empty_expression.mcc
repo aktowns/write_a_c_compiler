@@ -1,7 +1,9 @@
-fn main(): int {
-    let i: int = 3;
+module Stage8.Valid.EmptyExpression;
+
+fn main(): Int32 {
+    let i: Int32 = 3;
     ; 
-    for (let i: int = 0; i < 10; i = i + 1)
+    for (let i: Int32 = 0; i < 10; i = i + 1)
         ;
     return i;
 }

@@ -1,4 +1,0 @@
-fn main(): int {
-    let a: ints = 1;
-    return a;
-}

@@ -1,9 +1,11 @@
-fn foo(a: int, b: int);
+module Stage9.Invalid.DeclarationMismatch2;
 
-int main() {
+fn foo(a: Int32, b: Int32): Int32;
+
+fn main(): Int32 {
     return 5;
 }
 
-fn foo(a: int) {
+fn foo(a: Int32): Int32 {
     return 4;
 }

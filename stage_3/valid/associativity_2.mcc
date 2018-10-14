@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Valid.Associativity2;
+
+fn main(): Int32 {
     return 6 / 3 / 2;
 }

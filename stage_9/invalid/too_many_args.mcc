@@ -1,7 +1,9 @@
-fn foo(a: int): int {
+module Stage9.Invalid.TooManyArgs;
+
+fn foo(a: Int32): Int32 {
     return a + 1;
 }
 
-fn main(): int {
+fn main(): Int32 {
     return foo(1, 2);
 }

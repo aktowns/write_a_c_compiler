@@ -1,9 +1,11 @@
-fn foo(a: int): int;
+module Stage9.Valid.ForwardDeclArgs;
 
-fn main(): int {
+fn foo(a: Int32): Int32;
+
+fn main(): Int32 {
     return foo(3);
 }
 
-fn foo(a: int): int {
+fn foo(a: Int32): Int32 {
     return a + 1;
 }

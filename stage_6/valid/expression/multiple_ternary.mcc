@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 1 > 2 ? 3 : 4;
-    let b: int = 1 > 2 ? 5 : 6;
+module Stage6.Valid.Expression.MultipleTernary;
+
+fn main(): Int32 {
+    let a: Int32 = 1 > 2 ? 3 : 4;
+    let b: Int32 = 1 > 2 ? 5 : 6;
     return a + b;
 }

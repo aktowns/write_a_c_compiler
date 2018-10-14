@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 0;
+module Stage8.Valid.WhileSingleStatement;
+
+fn main(): Int32 {
+    let a: Int32 = 0;
 
     while (a < 5)
         a = a + 2;

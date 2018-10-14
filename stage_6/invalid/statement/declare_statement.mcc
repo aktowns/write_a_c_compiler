@@ -1,4 +1,6 @@
-fn main(): int {
+module Stage6.Invalid.Statement.DeclareStatement;
+
+fn main(): Int32 {
     if (5)
-        let i: int = 0;
+        let i: Int32 = 0;
 }

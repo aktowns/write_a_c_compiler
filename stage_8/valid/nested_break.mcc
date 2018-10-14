@@ -1,7 +1,9 @@
-fn main(): int {
-    let ans: int = 0;
-    for (let i: int = 0; i < 10; i = i + 1)
-        for (let j: int = 0; j < 10; j = j + 1)
+module Stage8.Valid.NestedBreak;
+
+fn main(): Int32 {
+    let ans: Int32 = 0;
+    for (let i: Int32 = 0; i < 10; i = i + 1)
+        for (let j: Int32 = 0; j < 10; j = j + 1)
             if (i % 2 == 0)
                 break;
             else

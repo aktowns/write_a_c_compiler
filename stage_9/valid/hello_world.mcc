@@ -1,6 +1,8 @@
-fn putchar(c: int): int;
+module Stage9.Valid.HelloWorld;
 
-fn main(): int {
+fn putchar(c: Int32): Int32;
+
+fn main(): Int32 {
     putchar(72);
     putchar(101);
     putchar(108);

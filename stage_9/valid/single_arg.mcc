@@ -1,7 +1,9 @@
-fn twice(x: int): int {
+module Stage9.Valid.SingleArg;
+
+fn twice(x: Int32): Int32 {
     return 2 * x;
 }
 
-fn main(): int {
+fn main(): Int32 {
     return twice(3);
 }

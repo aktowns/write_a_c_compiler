@@ -1,4 +1,6 @@
-fn main(): int {
+module Stage8.Invalid.SyntaxErrTooManyForClauses;
+
+fn main(): Int32 {
     for (;;;)
         3;
     return 0;

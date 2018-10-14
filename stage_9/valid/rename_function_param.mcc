@@ -1,9 +1,11 @@
-fn foo(b: int): int;
+module Stage9.Valid.RenameFunctionParam;
 
-fn main(): int {
+fn foo(b: Int32): Int32;
+
+fn main(): Int32 {
     return foo(3);
 }
 
-fn foo(a: int): int {
+fn foo(a: Int32): Int32 {
     return a + 1;
 }

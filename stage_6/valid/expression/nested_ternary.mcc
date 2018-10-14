@@ -1,7 +1,9 @@
-fn main(): int {
-    let a: int = 1;
-    let b: int = 2;
-    let flag: int = 0;
+module Stage6.Valid.Expression.NestedTernary;
+
+fn main(): Int32 {
+    let a: Int32 = 1;
+    let b: Int32 = 2;
+    let flag: Int32 = 0;
 
     return a > b ? 5 : flag ? 6 : 7;
 }

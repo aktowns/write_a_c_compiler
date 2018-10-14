@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage6.Invalid.Expression.MalformedTernary;
+
+fn main(): Int32 {
     return 1 ? 2 : 3 : 4;
 }

@@ -1,13 +1,15 @@
-fn main(): int {
-    let i: int = 0;
-    let j: int = 0;
+module Stage8.Valid.ForNestedScope;
 
-    for (let i: int = 100; i > 0; i = i - 1) {
-        let i: int = 0;
-        let j: int = j * 2 + i;
+fn main(): Int32 {
+    let i: Int32 = 0;
+    let j: Int32 = 0;
+
+    for (let i: Int32 = 100; i > 0; i = i - 1) {
+        let i: Int32 = 0;
+        let j: Int32 = j * 2 + i;
     }
 
-    let k: int = 3;
+    let k: Int32 = 3;
 
     return j + k;
 }

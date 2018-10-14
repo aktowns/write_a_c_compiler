@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage4.Valid.Precedence4;
+
+fn main(): Int32 {
     return 2 == 2 || 0;
 }

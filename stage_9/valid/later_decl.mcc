@@ -1,9 +1,11 @@
-fn foo(a: int): int {
+module Stage9.Valid.LaterDecl;
+
+fn foo(a: Int32): Int32 {
     return a + 1;
 }
 
-fn main(): int {
+fn main(): Int32 {
     return foo(4);
 }
 
-fn foo(a: int);
+fn foo(a: Int32): Int32;

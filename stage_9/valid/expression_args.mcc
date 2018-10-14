@@ -1,8 +1,10 @@
-fn add(a: int, b: int): int {
+module Stage9.Valid.ExpressionArgs;
+
+fn add(a: Int32, b: Int32): Int32 {
     return a + b;
 }
 
-fn main(): int {
-    let sum: int = add(1 + 2, 4);
+fn main(): Int32 {
+    let sum: Int32 = add(1 + 2, 4);
     return sum + sum;
 }

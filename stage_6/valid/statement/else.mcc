@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 0;
+module Stage6.Valid.Statement.Else;
+
+fn main(): Int32 {
+    let a: Int32 = 0;
     if (a)
         return 1;
     else

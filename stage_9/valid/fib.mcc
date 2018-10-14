@@ -1,4 +1,6 @@
-fn fib(n: int): int {
+module Stage9.Valid.Fib;
+
+fn fib(n: Int32): Int32 {
     if (n == 0 || n == 1) {
         return n;
     } else {
@@ -6,7 +8,7 @@ fn fib(n: int): int {
     }
 }
 
-fn main(): int {
-    int n = 5;
+fn main(): Int32 {
+    let n: Int32 = 5;
     return fib(n);
 }

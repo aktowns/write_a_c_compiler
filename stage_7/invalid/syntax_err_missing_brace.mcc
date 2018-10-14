@@ -1,4 +1,6 @@
-fn main(): int {
+module Stage7.Invalid.SyntaxErrMissingBrace;
+
+fn main(): Int32 {
     if(0){
         return 1;
     return 2;

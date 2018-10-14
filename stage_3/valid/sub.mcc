@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage3.Valid.Sub;
+
+fn main(): Int32 {
     return 1 - 2;
 }

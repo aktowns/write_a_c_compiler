@@ -1,1 +1,3 @@
-   fn   main     (  )  :   int  {   return  0 ; }
+module Stage1.Valid.Spaces;
+
+   fn   main     (  )  :   Int32  {   return  0 ; }

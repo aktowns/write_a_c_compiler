@@ -1,8 +1,10 @@
-fn main(): int {
-    let a: int = 1;
+module Stage8.Valid.NestedWhile;
+
+fn main(): Int32 {
+    let a: Int32 = 1;
 
     while (a % 3 != 0) {
-        let b: int = 1;
+        let b: Int32 = 1;
         while (b < 10)
             b = b*2;
         a = a + b;

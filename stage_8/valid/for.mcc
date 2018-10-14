@@ -1,5 +1,7 @@
-fn main(): int {
-    let a: int = 0;
+module Stage8.Valid.For;
+
+fn main(): Int32 {
+    let a: Int32 = 0;
 
     for (a = 0; a < 3; a = a + 1)
         a = a * 2;

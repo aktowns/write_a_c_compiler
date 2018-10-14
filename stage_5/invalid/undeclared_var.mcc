@@ -1,3 +1,5 @@
-fn main(): int {
+module Stage5.Invalid.UndeclaredVar;
+
+fn main(): Int32 {
     return a;
 }
