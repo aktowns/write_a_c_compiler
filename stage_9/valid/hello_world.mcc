@@ -1,5 +1,6 @@
 module Stage9.Valid.HelloWorld;
 
+@export(putchar);
 fn putchar(c: Int32): Int32;
 
 fn main(): Int32 {
